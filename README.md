@@ -1,14 +1,14 @@
-## The Easiest Ones
+# The Power of Effortless Animations
 
-### Takeaways
-1. Animations improve understanding
-2. UX often doesn't specify them
-3. They're easy
- 
+iOSKonf25 demos of effective yet cheap (i.e. easy to apply) animations in SwiftUI.
 
+### The 3 Key Points Today
+#### Animations are not just cool. 😎 They:
+1. Help users understand your app. 🤔
+2. Are often left out of the design. 😢
+3. Are easier than ever! 😌
 
-
-
+## Contents
 
 - List.animation(.default, ...)
 - View.transition
@@ -21,12 +21,9 @@
 - .contentTransition
 - .matchedGeometryEffect
 - .matchedTransitionSource
-
-
 - phaseAnimator?
-- keyframe?
-
-- Animation curves?
-    .snappy,...
+- keyframeAnimator
+- Animation curves
+    - .linear, .easeIn, .snappy, .smooth, etc.
 
 
