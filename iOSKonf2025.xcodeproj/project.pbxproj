@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AC56D40D2DB020470041755D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AC56D40C2DB020470041755D /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AC057DD82DA5905E006D1315 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,14 +31,10 @@
 		AC057DC92DA5905B006D1315 /* iOSKonf2025.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSKonf2025.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC057DD72DA5905E006D1315 /* iOSKonf2025Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSKonf2025Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC057DE12DA5905E006D1315 /* iOSKonf2025UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSKonf2025UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC56D40C2DB020470041755D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		AC057DCB2DA5905B006D1315 /* iOSKonf2025 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = iOSKonf2025;
-			sourceTree = "<group>";
-		};
 		AC057DDA2DA5905E006D1315 /* iOSKonf2025Tests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = iOSKonf2025Tests;
@@ -43,6 +43,11 @@
 		AC057DE42DA5905E006D1315 /* iOSKonf2025UITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = iOSKonf2025UITests;
+			sourceTree = "<group>";
+		};
+		ACF866452DC81D6900156EB4 /* iOSKonf2025 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = iOSKonf2025;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +80,8 @@
 		AC057DC02DA5905B006D1315 = {
 			isa = PBXGroup;
 			children = (
-				AC057DCB2DA5905B006D1315 /* iOSKonf2025 */,
+				AC56D40C2DB020470041755D /* README.md */,
+				ACF866452DC81D6900156EB4 /* iOSKonf2025 */,
 				AC057DDA2DA5905E006D1315 /* iOSKonf2025Tests */,
 				AC057DE42DA5905E006D1315 /* iOSKonf2025UITests */,
 				AC057DCA2DA5905B006D1315 /* Products */,
@@ -108,7 +114,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				AC057DCB2DA5905B006D1315 /* iOSKonf2025 */,
+				ACF866452DC81D6900156EB4 /* iOSKonf2025 */,
 			);
 			name = iOSKonf2025;
 			packageProductDependencies = (
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC56D40D2DB020470041755D /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

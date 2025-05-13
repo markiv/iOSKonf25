@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    var viewModel = ListViewModel()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List {
+            NavigationLink("Departures") { DeparturesView() }
+            NavigationLink("Adaptive Layout") { AdaptiveLayoutDemo() }
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    NavigationStack {
+        ContentView()
+    }
 }
